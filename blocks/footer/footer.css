@@ -1,0 +1,31 @@
+.footer {
+    max-width: 1184px;
+    padding: 92px 48px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+    .footer {
+        padding: 88px 24px 24px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 64px 0 24px 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        align-items: flex-start;
+    }
+}
