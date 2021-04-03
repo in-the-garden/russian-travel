@@ -1,0 +1,14 @@
+.place__paragraph {
+    margin: 0;
+    font-weight: 400;
+}
+
+.place__paragraph:last-child {
+    margin-top: 26px;
+}
+
+@media (max-width: 900px) {
+    .place__paragraph:last-child {
+        margin-top: 25px;
+    }
+}

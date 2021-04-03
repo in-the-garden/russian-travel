@@ -1,0 +1,25 @@
+.cover {
+    margin: 0;
+    padding: 92px 48px 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #FFFFFF; 
+}
+
+@media (max-width: 1150px){
+    .cover {
+        padding: 92px 0 0;
+    }
+}
+
+@media (max-width: 900px){
+    .cover {
+        padding: 90px 0 0;
+    }
+}
+
+@media (max-width: 425px){
+    .cover {
+        padding: 66px 0 0;
+    }
+}

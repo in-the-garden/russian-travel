@@ -1,0 +1,19 @@
+.place__main-text {
+    margin: 0;
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 29.34px;
+}
+
+@media (max-width: 900px) {
+    .place__main-text {
+        font-size: 16px;
+        line-height: 26.08px;
+    }  
+}
+@media (max-width: 450px) {
+    .place__main-text {
+        width: calc(100% - 32px);
+        margin: 0 auto;
+    }  
+}
