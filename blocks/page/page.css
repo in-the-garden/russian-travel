@@ -1,7 +1,6 @@
 .page {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     position: relative;
-    background-color: #2A2C2F;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;

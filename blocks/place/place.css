@@ -22,10 +22,22 @@
     }  
 }
 
+@media (max-width: 750px) {
+    .place {
+        grid-template-columns: fit-content(300px) 1fr;
+    }  
+}
+
+@media (max-width: 670px) {
+    .place {
+        grid-template-columns: fit-content(350px);
+        gap: 32px;
+        margin: 0 auto;
+    }  
+}
+
 @media (max-width: 450px) {
     .place {
         grid-template-columns: fit-content(320px);
-        gap: 32px;
-        margin: 0 auto;
     }  
 }
